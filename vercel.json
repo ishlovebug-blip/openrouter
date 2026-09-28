@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/v1/:path*",
+      "destination": "https://openrouter.ai/api/v1/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://openrouter.ai/:path*"
+    }
+  ]
+}
